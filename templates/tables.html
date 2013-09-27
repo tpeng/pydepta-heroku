@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>pydepta table extraction</title>
+    <style type="text/css">table {border-collapse: collapse;} td {padding: 5px} table, th, td { border: 3px solid black;} </style>
+</head>
+<body>
+<h1>pydepta</h1>
+{% for t in tables %}
+    <h2>table {{ t[0] }}</h2>
+    {{ t[1]|safe }}
+{% endfor %}
+</body>
+</html>
