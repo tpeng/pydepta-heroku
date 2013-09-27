@@ -1,7 +1,6 @@
 Flask==0.10.1
 Jinja2==2.7.1
 gunicorn==18.0
-cython
 lxml
 w3lib
 git+https://github.com/tpeng/pydepta.git#egg=pydepta
