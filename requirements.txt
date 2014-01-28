@@ -3,5 +3,5 @@ Jinja2==2.7.1
 gunicorn==18.0
 lxml
 w3lib
-git+https://github.com/tpeng/pydepta.git#egg=pydepta
+git+https://github.com/scrapinghub/pydepta.git#egg=pydepta
 
